@@ -41,6 +41,6 @@ c:\users\eadrkow\documents\visual studio 2015\Projects\PartyInvites\PartyInvites
 c:\users\eadrkow\documents\visual studio 2015\Projects\PartyInvites\PartyInvites\bin\System.Web.Webpages.Razor.xml
 c:\users\eadrkow\documents\visual studio 2015\Projects\PartyInvites\PartyInvites\bin\System.Web.Helpers.xml
 c:\users\eadrkow\documents\visual studio 2015\Projects\PartyInvites\PartyInvites\bin\System.Web.Mvc.xml
-c:\users\eadrkow\documents\visual studio 2015\Projects\PartyInvites\PartyInvites\obj\Debug\PartyInvites.csprojResolveAssemblyReference.cache
 c:\users\eadrkow\documents\visual studio 2015\Projects\PartyInvites\PartyInvites\obj\Debug\PartyInvites.dll
 c:\users\eadrkow\documents\visual studio 2015\Projects\PartyInvites\PartyInvites\obj\Debug\PartyInvites.pdb
+C:\Users\eadrkow\Documents\Visual Studio 2015\Projects\PartyInvites\PartyInvites\obj\Debug\PartyInvites.csprojResolveAssemblyReference.cache
