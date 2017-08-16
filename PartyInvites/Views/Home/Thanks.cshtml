@@ -1,0 +1,27 @@
+﻿@model PartyInvites.Models.GuestResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks!</title>
+</head>
+<body>
+    <div>
+        <h1>Thanks, @Model.Name</h1>
+        @if (Model.WillAttend == true)
+        {
+            @:We are glad you're gonna be here. Beverages are already in the fridge!
+        }
+        else
+        {
+            @:Sorry you won't be there, thanks for heads up though!
+        }
+    </div>
+</body>
+</html>
