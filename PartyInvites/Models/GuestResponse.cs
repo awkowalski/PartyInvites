@@ -11,7 +11,7 @@ namespace PartyInvites.Models
         [Required(ErrorMessage = "Please, enter your name and last name.")]
         public string Name { get; set; }
         [Required(ErrorMessage = "Please provide e-mail.")]
-        [RegularExpression(".+\\@.+\\..+,", ErrorMessage = "Please provide valid e-mail.")]
+        [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Please provide valid e-mail.")]
         public string Email { get; set; }
         [Required(ErrorMessage ="Where is your phone number, ey?")]
         public string Phone { get; set; }

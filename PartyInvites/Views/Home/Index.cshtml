@@ -8,15 +8,21 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet"/>
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet"/>
     <title>New year's eve</title>
+    <style>
+        .btn a {color: white; text-decoration:none}
+        body {background-color:#F1F1F1;}
+    </style>
 </head>
 <body>
-    <div> 
-        @ViewBag.Greeting
-        <p>Please be invited to New Year's Eve party. <br />
-            (TODO: improve with pictures etc.)
-        </p>
-        @Html.ActionLink("Send RSVP", "RsvpForm")
+    <div class="text-center"> 
+        <h2>New year's eve party</h2>
+        <h3>Please be invited.</h3>
+        <div class="btn btn-success">
+            @Html.ActionLink("Send RSVP", "RsvpForm")
+        </div>
     </div>
 </body>
 </html>
